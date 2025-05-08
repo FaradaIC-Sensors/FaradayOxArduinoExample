@@ -4,7 +4,7 @@ Example that shows how to interact with Faraday-Ox smart oxygen sensor module (F
 Example is developed with ArduinoIDE.
 
 ```FaradayOxArduinoExample.ino``` - contains all the logic
-```faradaic_registers.h``` - contains FaradaIC difines for the Module. Keep this file in the same folder as FaradayOxArduinoExample.ino
+```faradaic_registers.h``` - contains FaradaIC defines for the Module. Keep this file in the same folder as FaradayOxArduinoExample.ino
 
 ### Connection
 
