@@ -6,7 +6,11 @@ Example is developed with ArduinoIDE.
 ```FaradayOxArduinoExample.ino``` - contains all the logic
 ```faradaic_registers.h``` - contains FaradaIC defines for the Module. Keep this file in the same folder as FaradayOxArduinoExample.ino
 
-### Connection
+## Connection
+
+### NOTE
+**In recent versions of modules it is required to connect VDD and VDDA**
+![pin assignment](pin_assignment.jpg)
 
 Arduino has 5V voltage levels for the UART.
 To not damage the module it is required to use either level shifter circuit or in minimal configuration voltage divider on Arduino TX1 pin to bring it down to 3.3V for module.
